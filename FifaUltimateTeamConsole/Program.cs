@@ -258,7 +258,7 @@ namespace FifaUltimateTeamConsole
 
                     //need to validate code on EA side
                     bool result = await futClient.ValidateCaptchaKey(callBack);
-                    if(!result)
+                    if (!result)
                         throw new Exception("usually never happen, session expired ?!?");
                 }
 
