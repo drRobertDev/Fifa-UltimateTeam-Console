@@ -255,6 +255,11 @@ namespace FifaUltimateTeamConsole
 
                     if (string.IsNullOrEmpty(callBack))
                         throw new Exception("too many tenatives");
+
+                    //need to validate code on EA side
+                    bool result = await futClient.ValidateCaptchaKey(callBack);
+                    if(!result)
+                        throw new Exception("usually never happen, session expired ?!?");
                 }
 
                 //Call again after captcha solved
