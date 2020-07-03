@@ -11,6 +11,8 @@ Fifa Ultimate Team Library, userfull for building Sniping Tool, Autobuyer, Autob
 
 This is just console example how you can start your Project, require FutBotManagerLibrary to use (must add on project) you can get it from https://futbotmanager.com
 
-Our Discord Channels : 
+### Check Wiki to get more info about functions
+
+### Our Discord Channels : 
 - https://discord.gg/PrGJxRZ < libraryDev 
 - https://discord.gg/TwZAKmS < general
